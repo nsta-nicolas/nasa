@@ -1,0 +1,109 @@
+body{
+
+}
+#entete{
+  width: 100%;
+  height: 35vh;
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.logo{
+  background-image: url(gallerie/nasa-logo.svg);
+
+
+}
+/*.menu1{
+width: 90%;
+height: 15vh;
+background-color: red;
+}*/
+/*.menu3{
+width: 90%;
+/*height: 10vh;*/
+background-color: grey;
+margin-left:110px;
+margin-top: 0;
+
+
+}*/
+ul{
+  /*display: inline;*/
+}
+a{
+  color: white;
+}
+li{
+  border-right: 1px ridge white;
+  display: inline;
+  font-size: 14px;
+  padding: 6px;
+}
+/*pour le meunu2 */
+.menu3{
+  width: 90%;
+  height: 7vh;
+  background-color: grey;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  /*text-align: center;*/
+}
+.a{
+  display: inline;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.a:hover{
+  background-color: blue;
+}
+.b{
+  ddisplay: inline;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+.b:hover{
+  background-color: blue;
+
+}
+.c{
+
+  display: inline;
+  padding: 4px;
+  height: 4vh;
+  border-right: 2px ridge white;
+}
+.c:hover{
+  background-color: blue;
+}
+.d{
+
+  display: inline;
+  padding: 2px;
+  height: 4vh;
+  border-right: 2px ridge white;
+}
+.d:hover{
+  background-color: blue;
+}
+
+a{
+  display: inline;
+  /*padding: 5px;*/
+  /*height: 4vh;*/
+  /*border-right: 2px ridge white;*/
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  border-right: 2px ridge white;
+}
+input{
+  background-image: url(gallerie/nasa-logo.svg);
+  background-repeat: no-repeat, repeat;
+
+}
